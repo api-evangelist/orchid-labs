@@ -1,7 +1,16 @@
 aid: orchid-labs
 name: Orchid Labs
-description: Orchid Labs is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Orchid Labs is the company behind Orchid, an open-source, decentralized
+  marketplace for bandwidth and a privacy-focused VPN. Orchid lets users pay for
+  VPN service through nanopayments settled on a probabilistic payment layer built
+  on Ethereum, using the OXT utility token and Orchid Accounts rather than
+  traditional subscriptions. The stack includes an open-source multi-hop VPN
+  client (Dart), the Orchid DApp for account creation and management, a
+  decentralized directory of bandwidth providers running as smart contracts, and
+  an L2/L3 nanopayment protocol. Backed by a16z, Sequoia Capital, DFJ, and
+  Polychain, Orchid Labs focuses on decentralized privacy infrastructure rather
+  than a conventional developer REST API.
 url: https://raw.githubusercontent.com/api-evangelist/orchid-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,60 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.orchid.com/img/social-embed-2024.png
 tags:
 - Company
+- VPN
+- Privacy
+- Decentralized
+- Blockchain
+- Cryptocurrency
+- Nanopayments
+- Web3
+- Networking
 apis: []
+common:
+- type: DomainSecurity
+  url: security/orchid-labs-domain-security.yml
+- type: Website
+  url: https://www.orchid.com/
+- type: DeveloperPortal
+  url: https://docs.orchid.com/en/latest/
+- type: Documentation
+  url: https://docs.orchid.com/en/latest/
+- type: GitHubOrganization
+  url: https://github.com/OrchidTechnologies
+- type: Blog
+  url: https://blog.orchid.com/
+- type: SignUp
+  url: https://account.orchid.com
+- type: TermsOfService
+  url: https://www.orchid.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.orchid.com/privacy-policy/
+- type: Whitepaper
+  url: https://www.orchid.com/whitepaper/english.pdf
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
